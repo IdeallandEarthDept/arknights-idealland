@@ -1,5 +1,5 @@
 local outFile = nil;
-local modName = "idealland";
+local modName = "aknidl";
 local blockName = "grid_normal";
 
 local function GenModelBlockItem()
@@ -59,7 +59,16 @@ local function GenItem(_typeName, _itemName)
 	outFile:close();
 end
 
- GenItem("misc", "idl_ai_terminal");
+--local tp = {'a','b','c','d','e','f','g','h','i','j','k','l'}
+--
+--for i = 1, 12 do
+--	for x = 1, 4 do
+--		GenItem("materials", "m_"..tp[i].."_"..x);
+--	end
+--end
+
+	GenItem("skill", "skill_pwr_strike_silverash");
+
 
 
 --GenBlock("idl_glass");
