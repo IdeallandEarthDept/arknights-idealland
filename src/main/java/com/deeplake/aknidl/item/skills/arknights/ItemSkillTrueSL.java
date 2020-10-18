@@ -45,7 +45,6 @@ public class ItemSkillTrueSL extends ItemArknightsSkillBase {
         //max_charge = new int[]{3};
         initPower = new int[]{50, 50, 50, 55, 55, 55, 60, 65, 70, 75};
         showDuraDesc = true;
-        CommonFunctions.addToEventBus(this);
     }
 
 

@@ -8,19 +8,19 @@ generator.TYPE_ONE=Type One;
 generator.TYPE_TWO=Type Two;
 
 #config
-configgui.idealland.category.Menu0.GeneralConf=General Config
-idealland.conf.general.welcome=Welcome Message Key
+configgui.aknidl.category.Menu0.GeneralConf=General Config
+aknidl.conf.general.welcome=Welcome Message Key
 
 #Enchantments
-enchantment.idealland.test_enchantment=Early Access
+enchantment.aknidl.test_enchantment=Early Access
 
 #Messages
-idealland.moroon_incoming_herald=[IDL][Warn] The Moroon are interested in your fights.
-idealland.msg.notice_meter_report=[IDL] Moroon notice value: %d, invasion: %d/%d, error:%d
+aknidl.moroon_incoming_herald=[IDL][Warn] The Moroon are interested in your fights.
+aknidl.msg.notice_meter_report=[IDL] Moroon notice value: %d, invasion: %d/%d, error:%d
 
 #Potions
-idealland.potion.deadly=Deadly
-idealland.potion.zen_heart=Countless Virtue
+aknidl.potion.deadly=Deadly
+aknidl.potion.zen_heart=Countless Virtue
 
 
 #Entities
@@ -32,12 +32,12 @@ tile.idealland_light_basic.name=Idealland Lamp
 tile.test.name=Idealland Block A
 
 #Items
-idealland.food.shared.xp_desc=Grants XP: %d
-idealland.gua_enhance_no_free.desc=Use anvil to socket Gua(Elemental)
-idealland.gua_enhance_free.desc=Free Gua Sockets(Direct craft): %d
+aknidl.food.shared.xp_desc=Grants XP: %d
+aknidl.gua_enhance_no_free.desc=Use anvil to socket Gua(Elemental)
+aknidl.gua_enhance_free.desc=Free Gua Sockets(Direct craft): %d
 
-idealland.gua_enhance_total.desc=Gua Enhance Total: %d
-idealland.shared.press_shift=Hold SHIFT to examine info.
+aknidl.gua_enhance_total.desc=Gua Enhance Total: %d
+aknidl.shared.press_shift=Hold SHIFT to examine info.
 
 fading.duration.desc=Vanishes after %d seconds
 
@@ -70,24 +70,23 @@ item.skill_pwr_strike_silverash.desc=(Arknights Silverash)\n[Offhand Casting]\nI
 
 #Skills
 
-idealland.skill.shared.cool_down_desc=Cooldown: %.1fs
-idealland.skill.shared.power_desc=Damage: %.1f
-idealland.skill.shared.range_desc=Radius: %.1f block
-idealland.skill.shared.duration_desc=Duration: %.1fs
-idealland.skill.shared.error_desc=Error: +-%d
-idealland.skill.shared.level_desc=Level: %d/%d
-idealland.skill.shared.name_format=%s
-idealland.skill.shared.name_format_with_lv=%s Lv.%s %s
-idealland.skill.shared.lv_max=[MAX]
+aknidl.skill.shared.cool_down_desc=Cooldown: %.1fs
+aknidl.skill.shared.power_desc=Damage: %.1f
+aknidl.skill.shared.range_desc=Radius: %.1f block
+aknidl.skill.shared.duration_desc=Duration: %.1fs
+aknidl.skill.shared.error_desc=Error: +-%d
+aknidl.skill.shared.level_desc=Level: %d/%d
+aknidl.skill.shared.name_format=%s
+aknidl.skill.shared.name_format_with_lv=%s Lv.%s %s
+aknidl.skill.shared.lv_max=[MAX]
 
-idealland.gua_enhance_list.desc=Earth %s Thunder %s\nWater %s Mountain %s\nLake %s Fire %s\nWind%s Sky%s
-idealland.gua_not_applicable.desc=-
+aknidl.gua_enhance_list.desc=Earth %s Thunder %s\nWater %s Mountain %s\nLake %s Fire %s\nWind%s Sky%s
+aknidl.gua_not_applicable.desc=-
 
-idealland.kill_count.desc=Kills: %d
+aknidl.kill_count.desc=Kills: %d
 
-idealland.skill.msg.cool_down=Cooling Down.
+aknidl.skill.msg.cool_down=Cooling Down.
 
-idealland.temperature.msg.default_temp=Your best-fit temperature is at %s degrees.
 #Death
 #examples
 #death.fell.accident.ladder=%1$s fell off a ladder

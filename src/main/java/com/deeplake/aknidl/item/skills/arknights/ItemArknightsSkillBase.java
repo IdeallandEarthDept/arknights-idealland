@@ -35,6 +35,7 @@ public class ItemArknightsSkillBase extends ItemSkillBase {
     public ItemArknightsSkillBase(String name) {
         super(name);
         CommonFunctions.addToEventBus(this);
+        maxLevel = 10;
     }
 
     @Override
